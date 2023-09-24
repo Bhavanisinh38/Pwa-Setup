@@ -1,0 +1,18 @@
+{
+  "short_name": "PWA",
+  "name": "PWA - My First PWA Site",
+  "description": "progressive web app",
+  "icons": [
+    {
+      "src": "/img/app-store.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fcfcfc",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000",
+  "orientation": "portrait"
+}

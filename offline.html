@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PWA Offline</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Site Favicon -->
+    <link rel="icon" href="/img/app-store.png">
+    <link rel="apple-touch-icon" href="/img/app-store.png">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <style>
+      *, body{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+
+      .header-main{
+          color: white;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: black;
+          padding: 10px;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: 400;
+          font-family: 'Reem Kufi', sans-serif;
+          flex-direction: column;
+      }
+
+      .header-main img{
+          width: 100px;
+          margin-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header-main">
+      <img src="/img/app-store.png" alt="">
+      <p>PWA Offline</p>
+    </section>
+    
+  </body>
+</html>
